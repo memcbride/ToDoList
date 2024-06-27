@@ -21,7 +21,7 @@ struct ToDoListView: View {
             List {
                 ForEach(toDos, id: \.self) { toDo in
                     NavigationLink {
-                         DetailView(passedValue: toDo)
+                        DetailView(passedValue: toDo)
                     } label: {
                         Text(toDo)
                     }
@@ -41,12 +41,14 @@ struct ToDoListView: View {
                 }
             }
             .sheet(isPresented: $sheetIsPresented) {
-                DetailView(passedValue: "")
+                NavigationStack {
+                    DetailView(passedValue: "")
+                }
             }
         }
     }
 }
-    
+
 #Preview {
     ToDoListView()
 }
