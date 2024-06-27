@@ -75,6 +75,7 @@
 		91335DAF2C2CE16C006B91BC = {
 			isa = PBXGroup;
 			children = (
+				91335DE52C2CE220006B91BC /* README.md */,
 				91335DBA2C2CE16C006B91BC /* ToDoList */,
 				91335DCB2C2CE16E006B91BC /* ToDoListTests */,
 				91335DD52C2CE16E006B91BC /* ToDoListUITests */,
@@ -97,7 +98,6 @@
 			children = (
 				91335DBB2C2CE16C006B91BC /* ToDoListApp.swift */,
 				91335DBD2C2CE16C006B91BC /* ContentView.swift */,
-				91335DE52C2CE220006B91BC /* README.md */,
 				91335DBF2C2CE16D006B91BC /* Assets.xcassets */,
 				91335DC12C2CE16D006B91BC /* Preview Content */,
 			);
