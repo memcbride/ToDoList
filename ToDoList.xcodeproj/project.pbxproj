@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		91335DBC2C2CE16C006B91BC /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91335DBB2C2CE16C006B91BC /* ToDoListApp.swift */; };
-		91335DBE2C2CE16C006B91BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91335DBD2C2CE16C006B91BC /* ContentView.swift */; };
+		91335DBE2C2CE16C006B91BC /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91335DBD2C2CE16C006B91BC /* ToDoListView.swift */; };
 		91335DC02C2CE16D006B91BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91335DBF2C2CE16D006B91BC /* Assets.xcassets */; };
 		91335DC32C2CE16D006B91BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91335DC22C2CE16D006B91BC /* Preview Assets.xcassets */; };
 		91335DCD2C2CE16E006B91BC /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91335DCC2C2CE16E006B91BC /* ToDoListTests.swift */; };
 		91335DD72C2CE16E006B91BC /* ToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91335DD62C2CE16E006B91BC /* ToDoListUITests.swift */; };
 		91335DD92C2CE16E006B91BC /* ToDoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91335DD82C2CE16E006B91BC /* ToDoListUITestsLaunchTests.swift */; };
+		91335DE72C2CE624006B91BC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91335DE62C2CE624006B91BC /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		91335DB82C2CE16C006B91BC /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91335DBB2C2CE16C006B91BC /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
-		91335DBD2C2CE16C006B91BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91335DBD2C2CE16C006B91BC /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		91335DBF2C2CE16D006B91BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91335DC22C2CE16D006B91BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91335DC82C2CE16E006B91BC /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +46,7 @@
 		91335DD62C2CE16E006B91BC /* ToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITests.swift; sourceTree = "<group>"; };
 		91335DD82C2CE16E006B91BC /* ToDoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		91335DE52C2CE220006B91BC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		91335DE62C2CE624006B91BC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				91335DBB2C2CE16C006B91BC /* ToDoListApp.swift */,
-				91335DBD2C2CE16C006B91BC /* ContentView.swift */,
+				91335DBD2C2CE16C006B91BC /* ToDoListView.swift */,
+				91335DE62C2CE624006B91BC /* DetailView.swift */,
 				91335DBF2C2CE16D006B91BC /* Assets.xcassets */,
 				91335DC12C2CE16D006B91BC /* Preview Content */,
 			);
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91335DBE2C2CE16C006B91BC /* ContentView.swift in Sources */,
+				91335DBE2C2CE16C006B91BC /* ToDoListView.swift in Sources */,
+				91335DE72C2CE624006B91BC /* DetailView.swift in Sources */,
 				91335DBC2C2CE16C006B91BC /* ToDoListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
